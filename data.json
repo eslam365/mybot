@@ -1,0 +1,114 @@
+{
+    "packages": [
+        {
+            "id": 1,
+            "name": "باقة 5200 فليكس",
+            "price": 90.0,
+            "description": "لا يوجد وصف"
+        },
+        {
+            "id": 2,
+            "name": "باقة 5200 فليكس",
+            "price": 90.0,
+            "description": "تنفع لكل الانظمه \nحتي لو مستلف"
+        }
+    ],
+    "users": {
+        "7515909688": {
+            "referral_from": null,
+            "referrals_count": 0,
+            "points": 0,
+            "total_earned": 0
+        },
+        "932204702": {
+            "referral_from": null,
+            "referrals_count": 1,
+            "points": 0,
+            "total_earned": 12
+        },
+        "1797266707": {
+            "referral_from": "932204702",
+            "referrals_count": 0,
+            "points": 0,
+            "total_earned": 0
+        }
+    },
+    "orders": [
+        {
+            "order_id": 1,
+            "user_id": "932204702",
+            "package_id": "1",
+            "payment_proof_file_id": "AgACAgEAAxkBAAIC-2hIxObAcUDz5BwHh_hwhtmBaBsMAAIrrzEbL3pJRmgkwv1eGJBfAQADAgADeQADNgQ",
+            "activation_data": "01006464645",
+            "status": "rejected"
+        },
+        {
+            "order_id": 2,
+            "user_id": "932204702",
+            "package_id": "1",
+            "payment_proof_file_id": "AgACAgEAAxkBAAIC-2hIxObAcUDz5BwHh_hwhtmBaBsMAAIrrzEbL3pJRmgkwv1eGJBfAQADAgADeQADNgQ",
+            "activation_data": "5454",
+            "status": "completed"
+        },
+        {
+            "order_id": 3,
+            "user_id": "1797266707",
+            "package_id": "1",
+            "payment_proof_file_id": "AgACAgQAAxkBAAIEnGhI28qyISNgre9UQaWDd-PZIyOtAAImxTEbVGFJUl_ejMbcLS6RAQADAgADeQADNgQ",
+            "activation_data": "تيت",
+            "status": "completed"
+        }
+    ],
+    "recharge_orders": [
+        {
+            "order_id": 2,
+            "user_id": "932204702",
+            "username": "O_X_0_h",
+            "phone_sent_from": "5454",
+            "phone_to_recharge": "5454",
+            "amount": 50.0,
+            "total": 62.5,
+            "payment_proof_file_id": "AgACAgEAAxkBAAIC-2hIxObAcUDz5BwHh_hwhtmBaBsMAAIrrzEbL3pJRmgkwv1eGJBfAQADAgADeQADNgQ",
+            "status": "rejected",
+            "type": "recharge",
+            "timestamp": "2025-06-11T06:02:17.356059"
+        },
+        {
+            "order_id": 3,
+            "user_id": "932204702",
+            "username": "O_X_0_h",
+            "phone_sent_from": "hdh",
+            "phone_to_recharge": "jdjd",
+            "amount": 100.0,
+            "total": 125.0,
+            "payment_proof_file_id": "AgACAgEAAxkBAAIC-2hIxObAcUDz5BwHh_hwhtmBaBsMAAIrrzEbL3pJRmgkwv1eGJBfAQADAgADeQADNgQ",
+            "status": "completed",
+            "type": "recharge",
+            "timestamp": "2025-06-11T06:02:42.853323"
+        },
+        {
+            "order_id": 4,
+            "user_id": "1797266707",
+            "username": "K_T_CC",
+            "phone_sent_from": "5454",
+            "phone_to_recharge": "648",
+            "amount": 50.0,
+            "total": 62.5,
+            "payment_proof_file_id": "AgACAgQAAxkBAAIEnGhI28qyISNgre9UQaWDd-PZIyOtAAImxTEbVGFJUl_ejMbcLS6RAQADAgADeQADNgQ",
+            "status": "completed",
+            "type": "recharge",
+            "timestamp": "2025-06-11T06:06:05.806445"
+        }
+    ],
+    "withdraw_requests": [
+        {
+            "id": 1,
+            "user_id": "932204702",
+            "username": "O_X_0_h",
+            "points": 50,
+            "payment_details": "545\n848\n948",
+            "status": "completed",
+            "timestamp": "2025-06-11T06:07:51.819883"
+        }
+    ]
+}
